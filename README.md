@@ -68,7 +68,7 @@ Attributes: Transaction Volume, Transaction Value, Average Transaction Value, Ba
 
 ✅ Standardized transaction values to numeric.
 
-✅ Derived features: Financial Year, Growth %, Quarter, Average Transaction Value.
+✅ Derived features: Financial Year, Growth %, Quarter, Average Transaction Value,etc
 
 **🎯 Project Objectives**:
 
@@ -80,7 +80,13 @@ Attributes: Transaction Volume, Transaction Value, Average Transaction Value, Ba
 
 4.Evaluate bank participation and adoption patterns.
 
-5.Generate business insights for policymakers and banks.
+5.Evaluate transaction efficiency across UPI and IMPS.
+
+6.Evaluate bank utilization and participation patterns.
+
+7.Compare value efficiency per million transactions.
+
+8.Generate business insights for policymakers and banks.
 
 **
 📊 Exploratory Data Analysis**:
@@ -120,6 +126,80 @@ IMPS: 143 → 971 banks
 
 4.Kurtosis: Both flatter than normal distribution.
 
+
+
+# Financial Year vs Transaction Growth %
+
+<img width="851" height="533" alt="image" src="https://github.com/user-attachments/assets/fc010fa2-15f9-4bd8-881d-17c9c439e100" />
+
+
+Interpretation:
+UPI experienced rapid initial growth, peaking at around 37% in 2017–2018, before gradually stabilizing as the platform matured, while IMPS showed steady but slower growth throughout the study period.
+
+Overall, the analysis indicates that UPI drove faster digital payment adoption, whereas IMPS maintained consistent and stable transaction growth, with both significantly contributing to India's digital payment ecosystem.
+
+# Financial Year vs Number of Banks
+
+<img width="870" height="533" alt="image" src="https://github.com/user-attachments/assets/9a1c1f17-f866-4ce2-b6fb-df2fe9509387" />
+
+Interpretation:
+UPI expanded rapidly from around 30 banks in 2016–17 to nearly 700 banks by 2025–26, while IMPS maintained broader participation, increasing from approximately 180 to 950 banks over the same period.
+
+Overall, both payment systems showed consistent growth in bank participation, with UPI demonstrating faster expansion and IMPS retaining wider banking coverage, strengthening India's digital payment infrastructure.
+
+# UPI vs IMPS - Transaction Efficiency Index Trend Analysis
+
+<img width="1584" height="492" alt="image" src="https://github.com/user-attachments/assets/8b582266-c7e4-4036-9339-3d56b1325c10" />
+
+Interpretation:
+
+UPI's Transaction Efficiency Index increased dramatically from 2016 to 2026, significantly outperforming IMPS, which experienced moderate growth before stabilizing after 2022.
+
+Overall, the analysis indicates that UPI achieved higher operational efficiency and faster scalability, while IMPS maintained stable transaction handling performance throughout the study period.
+
+# UPI vs IMPS - Bank Utilization Ratio Trend Analysis
+
+<img width="1584" height="492" alt="image" src="https://github.com/user-attachments/assets/187a0eeb-4400-46b7-a98c-ea102b8aebc7" />
+
+Interpretation:
+
+UPI's Bank Utilization Ratio increased significantly from approximately 0 in 2016 to around 30 by 2026, whereas IMPS rose from about 0.2 to a peak of 0.7 in 2022 before declining to nearly 0.3 by 2026.
+
+Overall, UPI demonstrated substantially higher bank utilization and stronger institutional expansion, while IMPS exhibited moderate growth followed by a gradual decline, reflecting the increasing preference for UPI-based digital payments.
+
+# UPI vs IMPS - Value per Million Transaction Trend Analysis
+
+<img width="1583" height="492" alt="image" src="https://github.com/user-attachments/assets/04fd7ba2-cd4b-4ba2-8248-fa310d6e884d" />
+
+Interpretation:
+
+UPI's Value per Million Transaction peaked at approximately 500 during 2016–2017 and later stabilized between 100 and 200 from 2018 to 2026, whereas IMPS fluctuated around 1,000–1,500 before rising sharply to nearly 2,000 by 2026.
+
+Overall, UPI exhibited stable value efficiency following widespread adoption, while IMPS recorded a substantial increase of approximately 500 units between 2024 and 2026, indicating stronger growth in high-value transactions.
+
+Summary of Findings
+
+1. Financial Year vs Transaction Growth (%)
+
+UPI recorded substantially higher transaction growth than IMPS during the study period, indicating faster adoption and stronger expansion of digital payments in India.
+
+2. Financial Year vs Number of Banks
+
+The number of participating banks increased consistently for both UPI and IMPS, with UPI exhibiting rapid institutional growth while IMPS maintained broader banking coverage.
+
+3. UPI vs IMPS – Transaction Efficiency Index
+
+UPI demonstrated significantly higher transaction efficiency than IMPS, reflecting its ability to process increasing transaction values with greater operational efficiency.
+
+4. UPI vs IMPS – Bank Utilization Ratio
+
+The Bank Utilization Ratio showed that UPI achieved more effective utilization of participating banks over time, whereas IMPS experienced comparatively slower utilization growth.
+
+5. UPI vs IMPS – Value per Million Transaction
+
+Value per Million Transaction analysis revealed that UPI maintained stable value efficiency after widespread adoption, while IMPS showed stronger growth in high-value transactions during the later years of the study.
+
+
 **🧠 Key Business Insights**:
 
 🏆 UPI dominates in volume & overall value, reflecting mass consumer adoption.
@@ -142,10 +222,7 @@ IMPS: 143 → 971 banks
 
 4.Integrate UPI & IMPS for a complementary digital payment ecosystem.
 
-**📌 Conclusion**:
 
-This project demonstrated how Python can be used to analyze digital payment performance in India.
+conclusion:
 
-The analysis successfully compared UPI and IMPS transactions over a 10-year period, revealing complementary roles in India’s financial ecosystem.
-
-UPI powers high-volume, low-value retail payments, while IMPS secures high-value transfers, together strengthening India’s digital backbone.
+The comparative analysis of UPI and IMPS from 2016 to 2026 demonstrates significant growth in India's digital payment ecosystem. UPI emerged as the leading payment system with superior transaction growth, operational efficiency, and bank utilization, while IMPS maintained stable performance and wider banking participation throughout the study period. Overall, the findings highlight the successful expansion of digital payment services and provide valuable insights for strengthening the future development of India's cashless economy.
